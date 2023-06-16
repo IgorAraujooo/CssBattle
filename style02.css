@@ -1,7 +1,7 @@
 /*quadrado1*/
 #quadrado1{
-    margin-top: 120px; /* Vou mover o quadrado para baixo em 120 pixels */
-    margin-left: 250px; /* Vou mover o quadrado para a direita em 250 pixels */
+    margin-top: 120px; 
+    margin-left: 250px; 
 }
 /*
     margin-top:  Aqui eu usei para mover o quadrado para baixo em 120 pixels 
