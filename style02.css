@@ -1,31 +1,36 @@
-*{
-    padding: 0;
-    margin: 0;
-    background: #62374e;
-}
-
-div{
-    background: #fdc57b;
-    height: 120px;
-    width: 120px;
-}
-
+/*quadrado1*/
 #quadrado1{
-    margin-top: 120px;
-    margin-left: 250px;
+    margin-top: 120px; /* Vou mover o quadrado para baixo em 120 pixels */
+    margin-left: 250px; /* Vou mover o quadrado para a direita em 250 pixels */
 }
+/*
+    margin-top:  Aqui eu usei para mover o quadrado para baixo em 120 pixels 
+    margin-left: Aqui eu usei para mover o quadrado para direita em 250 pixels
 
+/*quadrado2*/
 #quadrado2{
-    margin-top: 240px;
-    margin-left: 250px;
+    margin-top: 240px; /* Vou mover o quadrado para baixo em 240 pixels */
+    margin-left: 250px; /* Vou mover o quadrado para a direita em 250 pixels */
 }
-
+/*
+    margin-top:  Aqui eu usei para mover o quadrado para baixo em 240 pixels
+    margin-left: Aqui eu usei para mover o quadrado para a direita em 250 pixels
+    
+/*quadrado3*/
 #quadrado3{
-    margin-top: -480px;
-    margin-left: 1150px;
+    margin-top: -480px; 
+    margin-left: 1150px; 
 }
+/*
+    margin-top:  Usei para mover o quadrado para cima em 480 pixels
+    margin-left: Usei para mover o quadrado para a direita em 1150 pixels
+*/ 
 
+/*quadrado4*/
 #quadrado4{
-    margin-top: 240px;
-    margin-left: 1150px;
+    margin-top: 240px; 
+    margin-left: 1150px; 
 }
+/* margin-top:  Aqui eu movi o quadrado para baixo em 240 pixels
+   margin-left: Aqui eu movi o quadrado para a direita em 1150 pixels
+*/

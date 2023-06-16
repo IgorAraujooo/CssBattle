@@ -1,52 +1,105 @@
+/* Resetando tudo */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
-    background-color: #222730;
-    position: absolute;
-    overflow: hidden;
+/* Estilos do corpo */
+body {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: 100vw; 
+    height: 100vh; 
+    background-color: #222730; 
+    position: absolute; 
+    overflow: hidden; 
 }
 
-.quadrado-1{
+/*
+display: Usei flex para organizar os elementos
+justify-content: Usei para centralizar horizontalmente
+align-items: Usei para centralizar verticalmente
+width: Usei para deixar a largura igual a da tela
+height: Usei para deixar a altura igual a da tela
+background-color: Usei para definir a cor do fundo
+position: Usei para definir o posicionamento absoluto 
+overflow: Usei para tirar a barra vertical e horizontal 
+*/
+
+/* Quadrado 1 */
+.quadrado-1 {
     width: 100%;
-    height: 500px;
-    position: absolute;
-    background-color: #4CAAB3;
+    height: 500px; 
+    position: absolute; 
+    background-color: #4CAAB3; 
 }
 
-.quadrado-2{
-    width: 900px;
-    height: 900px;
-    position: absolute;
-    background-color: #222730;
-    transform: rotate(45deg);
-    border-top-left-radius: 50%;
-    border-bottom-right-radius: 50%;
-    z-index: 1;
+/*
+width: Usei para definir a largura como 100%
+height: Usei para definir a altura de 500 pixels 
+position: Usei para definir o posicionamento absoluto
+background-color: Usei para definir a cor do fundo
+*/
+
+/* Quadrado 2 */
+.quadrado-2 {
+    width: 900px; 
+    height: 900px; 
+    position: absolute; 
+    background-color: #222730; 
+    transform: rotate(45deg); 
+    border-top-left-radius: 50%; 
+    border-bottom-right-radius: 50%; 
+    z-index: 1; 
 }
 
-.quadrado-3{
-    width: 500px;
-    height: 500px;
-    position: absolute;
-    background-color: #4CAAB3;
-    transform: rotate(45deg);
-    z-index: 2;
+/*
+width: Usei para definir a largura de 900 pixels
+height: Usei para definir a altura de 900 pixels
+position: Usei para definir o posicionamento absoluto
+background-color: Usei para definir a cor do fundo
+transform: Usei para o quadrado 2 girar em 45 graus
+border-top-left-radius: Usei para a borda ficar arredondada no canto superior esquerdo
+border-bottom-right-radius: Usei para a borda ficar arredondada no canto inferior esquerdo
+z-index: Usei para definir a ordem de empilhamento 
+*/
+
+/* Quadrado 3 */
+.quadrado-3 {
+    width: 500px; 
+    height: 500px; 
+    position: absolute; 
+    background-color: #4CAAB3; 
+    transform: rotate(45deg); 
+    z-index: 2; 
 }
 
-.quadrado-4{
-    width: 150px;
-    height: 150px;
-    position: absolute;
-    background-color: #393E46;
-    border-radius: 50%;
-    z-index: 3;
+/*
+width: Usei para definir a largura de 500 pixels
+height: Usei para definir a altura de 500 pixels
+position: Usei para definir o posicionamento absoluto
+background-color: Usei para definir a cor do fundo
+transform: Usei para o quadrado 3 girar em 45 graus
+z-index: Usei para definir a ordem de empilhamento 
+*/ 
+
+/* Quadrado 4 */
+.quadrado-4 {
+    width: 150px; /* Largura de 150 pixels */
+    height: 150px; /* Altura de 150 pixels */
+    position: absolute; /* Posicionamento absoluto */
+    background-color: #393E46; /* Cor de fundo */
+    border-radius: 50%; /* Borda arredondada para formar um círculo */
+    z-index: 3; /* Ordem de camadas */
 }
+
+/*
+width: Usei para definir a largura de 150 pixels
+height: Usei para definir a altura de 150 pixels
+position: Usei para definir o posicionamento absoluto
+background-color: Usei para definir a cor do fundo
+border-radius: Usei para deixar a borda arredondanda, formando um círculo
+z-index: Usei para definir a ordem de empilhamento 
+*/
