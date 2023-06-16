@@ -9,8 +9,8 @@
 
 /*quadrado2*/
 #quadrado2{
-    margin-top: 240px; /* Vou mover o quadrado para baixo em 240 pixels */
-    margin-left: 250px; /* Vou mover o quadrado para a direita em 250 pixels */
+    margin-top: 240px; 
+    margin-left: 250px; 
 }
 /*
     margin-top:  Aqui eu usei para mover o quadrado para baixo em 240 pixels
